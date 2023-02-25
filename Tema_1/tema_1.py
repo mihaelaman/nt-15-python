@@ -24,7 +24,7 @@ print("listă cu numerele pare = ", list_desc)
 list_asc= list_asc[0:9:2]
 print("listă cu numerele impare = ", list_asc)
 
-# afișează o listă ce conține numerele ce sunt multipli ai numărului 3 (folosind slice).
+# afișează o listă ce conține numerele ce sunt multipli ai numărului 3 (folosind slice)
 
 list_asc= list_asc[1:9:3]
 print("listă cu multiplii de 3 = ", list_asc)

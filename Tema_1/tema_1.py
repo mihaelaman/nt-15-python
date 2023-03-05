@@ -16,12 +16,12 @@ print("lista ordonata descendent = ", list_desc)
 
 # afișează o listă ce conține numerele pare din lista ordonată (folosind slice)
 
-list_desc= list_desc[0:9:2]
+list_desc= list_desc[::2]
 print("listă cu numerele pare = ", list_desc)
 
 # afișează o listă ce conține numerele impare din lista ordonată (folosind slice)
 
-list_asc= list_asc[0:9:2]
+list_asc= list_asc[::2]
 print("listă cu numerele impare = ", list_asc)
 
 # afișează o listă ce conține numerele ce sunt multipli ai numărului 3 (folosind slice)
